@@ -1,15 +1,15 @@
+{
+  "builds": [
     {
-      "builds": [
-        {
-          "src": "<logiflow_backend>/wsgi.py",
-          "use": "@vercel/python",
-          "config": { "maxLambdaSize": "15mb", "runtime": "python3.13.2" }
-        }
-      ],
-      "routes": [
-        {
-          "src": "/(.*)",
-          "dest": "<logiflow_backend>/wsgi.py"
-        }
-      ]
+      "src": "logiflow_backend/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.11" }
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "logiflow_backend/wsgi.py"
+    }
+  ]
+}
