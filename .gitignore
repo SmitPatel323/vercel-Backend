@@ -1,0 +1,39 @@
+# === Python / Django ===
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Django migrations cache
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Local environment files (API keys, secrets)
+.env
+.env.*
+!.env.example   # keep a sample env file for reference
+
+# Machine learning model files
+*.pkl
+
+# Logs
+logs
+*.log
+
+# Editor / OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
