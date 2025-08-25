@@ -4,9 +4,11 @@ certifi==2025.8.3
 charset-normalizer==3.4.3
 Django==5.2.5
 django-cors-headers==4.7.0
+django-environ==0.12.0
 djangorestframework==3.16.1
 djangorestframework_simplejwt==5.5.1
 idna==3.10
+joblib==1.5.1
 numpy==2.3.2
 pandas==2.3.1
 psycopg2-binary==2.9.10
@@ -24,3 +26,4 @@ threadpoolctl==3.6.0
 typing_extensions==4.14.1
 tzdata==2025.2
 urllib3==2.5.0
+whitenoise==6.9.0
