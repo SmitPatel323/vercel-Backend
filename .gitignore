@@ -22,6 +22,7 @@ ENV/
 
 # Machine learning model files
 *.pkl
+!ml_models/*.pkl
 
 # Logs
 logs
